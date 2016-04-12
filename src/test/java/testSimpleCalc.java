@@ -9,4 +9,11 @@ public class testSimpleCalc {
 		calc.addfunc(10, 20);
 		assertEquals(30, calc.getResult());
 	}
+	
+	@Test
+	public void testsubfunc() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.subfunc(10, 20);
+		assertEquals(-10, calc.getResult());
+	}
 }
