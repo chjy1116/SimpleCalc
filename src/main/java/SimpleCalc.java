@@ -14,6 +14,10 @@ public class SimpleCalc {
 		result = x * y;
 	}
 	
+	public void divfunc(int x, int y) {
+		result = x / y;
+	}
+	
 	public int getResult() {
 		return result;
 	}
